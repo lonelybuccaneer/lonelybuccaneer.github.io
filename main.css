@@ -1,0 +1,283 @@
+body { margin: 2%;
+background: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);;
+height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+font-family: "fairplex-wide", serif;
+font-weight: 400;
+}
+html, body {
+    max-width: 100%;
+    max-height: 100%
+    overflow-x: hidden;
+}
+
+body.home {
+    background-image: url(images/chill.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+.logo{
+    float:left;
+    height: 100px;
+}
+
+header.home { background-color:clear;
+    margin: 1%;
+}
+
+header {
+    margin: 1%
+}
+
+header:after {
+    content:'';
+    display: table;
+    clear: both;}
+
+nav {
+    float:right;
+}
+
+nav ul {
+  list-style-type:none;
+  margin: 7px;
+  padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 37px;
+    position: relative;
+}
+
+nav a {
+    color: magenta;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: darkgrey;
+}
+
+nav a:before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+    width: 0%;
+    transition: all ease-in-out 450ms;
+}
+
+nav a:hover:before {
+    width: 100%;
+}
+
+p a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.image_container {
+    position: inherit;
+}
+
+.text-block{
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+  background-color: clear;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.8;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.IG{
+    position:absolute;
+    right: 0;
+    width: 35px;
+    color: magenta;
+    padding-top: 18px;
+}
+
+footer p{
+   position: relative;
+   text-align: right;
+   padding-right: 45px;
+}
+
+}
+
+footer {
+    text-align: center;
+    text-decoration-color: white;
+}
+
+/*Font*/
+    p {
+        font-family: "fairplex-wide", serif;
+        text-align: center;
+}
+
+    h1 {
+        font-family: "fairplex-wide", serif;
+        text-align: center;
+        }
+
+    h1.thick {
+    font-weight: bold;
+    }
+
+
+
+/*BLOG*/
+
+body.blog{
+    margin: 0; 
+    height: 100%; 
+    overflow:scroll;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 1rem;
+    grid-gap: 1rem;
+    content: auto;
+}
+
+.card-container img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card-container img:hover{
+    opacity: 0.8;
+}
+
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+}
+.card_title {
+    font-size: 2rem;
+    padding: .5rem;
+    text-align: center;
+}
+.card_title h4{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.card_description {
+    padding: .5rem;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+
+/*ABOUT*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+.left{
+    margin-left: 5px;
+}
+
+.right {
+    margin-right: 5px;
+}
+
+.page{
+width: 100%;
+overflow: hidden;
+}
+
+.jeremy {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*CONTACT*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid clear;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: magenta;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: clear;
+  padding: 10px;
+}
+
+.column_contact{
+
+  float: none;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,68 @@
+/*basic layout*/
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/oru3div.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/purrrculator1.png">
+         <title>Purrrculator Coffee Blog</title>
+    </head>
+
+    <body class="blog">   
+
+        <header class="blog">
+            <div class="container">
+                <a href=index.html> 
+                    <img src="images/purrrculator1.png" alt="logo" class="logo">
+                </a>
+                <nav>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+   </body>
+</html>
+
+
+/* Blog post layout */
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/oru3div.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/purrrculator1.png">
+         <title>Purrrculator Coffee Blog</title>
+    </head>
+
+    <body class="home">   
+
+        <header class="home">
+            <div class="container">
+                <a href=../index.html> 
+                    <img src="../images/purrrculator1.png" alt="logo" class="logo">
+                </a>
+                <nav>
+                    <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../blog.html">Blog</a></li>
+                      <li><a href="../about.html">About</a></li>
+                      <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        
+        </header>
+   </body>
+</html>
