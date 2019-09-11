@@ -204,18 +204,18 @@ body.blog{
 
 /*ABOUT*/
 
-.wrapper {
+.aboutwrap {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   grid-auto-rows: minmax(100px, auto);
 
 }
 
-.left{
+.aboutwrap img{
     margin-left: 5px;
 }
 
-.right {
+.aboutwrap text {
     margin-right: 5px;
 }
 
@@ -224,7 +224,7 @@ width: 100%;
 overflow: hidden;
 }
 
-.jeremy {
+.aboutwrap img {
     border-radius: 15px;
 }
 
